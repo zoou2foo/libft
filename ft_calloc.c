@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
+/*   By: valeriejean <valeriejean@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 11:52:15 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/18 13:59:04 by vjean            ###   ########.fr       */
+/*   Updated: 2022/04/22 15:34:45 by valeriejean      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,4 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, size * count);
 	return (ptr);
 }
+int main()
