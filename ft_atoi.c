@@ -6,7 +6,7 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 16:19:16 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/12 08:30:29 by vjean            ###   ########.fr       */
+/*   Updated: 2022/04/22 15:38:43 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,4 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
+int main()
