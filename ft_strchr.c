@@ -6,7 +6,7 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 14:16:53 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/21 09:31:33 by vjean            ###   ########.fr       */
+/*   Updated: 2022/04/23 11:45:12 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] == c)
+		if (s[i] == (char) c)
 			return ((char *)&s[i]);
 		i++;
 	}
-	if (s[i] == c)
+	if (c == '\0')
 		return ((char *)&s[i]);
 	return (NULL);
 }

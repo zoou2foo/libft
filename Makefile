@@ -6,7 +6,7 @@
 #    By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/05 08:45:10 by vjean             #+#    #+#              #
-#    Updated: 2022/04/22 11:46:10 by vjean            ###   ########.fr        #
+#    Updated: 2022/04/23 12:05:05 by vjean            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ RM = rm -f
 
 OBJS = $(SRCS:%c=%o)
 
-#BONUS_OBJS = $(BONUS:.c=.o)
+BONUS_OBJS = $(BONUS:.c=.o)
 
 all: $(NAME)
 

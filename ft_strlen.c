@@ -6,13 +6,13 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 09:16:42 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/21 09:22:24 by vjean            ###   ########.fr       */
+/*   Updated: 2022/04/22 16:58:18 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-size_t	ft_strlen(char *s)
+size_t	ft_strlen(const char *s)
 {
 	int	i;
 
