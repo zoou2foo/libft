@@ -9,6 +9,9 @@
 /*   Updated: 2022/04/11 16:20:51 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+// la fonction verifie si c'est un caractere ascii. Elle retourne 1 dans le cas
+// que c'est vrai. Sinon, retourne 0.
+#include "libft.h"
 
 int	ft_isascii(int c)
 {
