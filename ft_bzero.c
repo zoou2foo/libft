@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 
 #include"libft.h"
+// fonction pour mettre des '\0'. La fonction en place 'n' nombre. Alors tant 
+// que l'index est plus petit que n, la fonctione cast des '\0' a l'index.
+// l'index incremente jusqu'a temps qu'il rejoint n.
 
 void	ft_bzero(void *s, size_t n)
 {
