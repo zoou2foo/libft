@@ -9,6 +9,8 @@
 /*   Updated: 2022/04/11 16:21:40 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+// fonction verifie si le caractere est imprimable ou non. Retourne 1 si c'est
+// vrai. Sinon retourne 0
 
 int	ft_isprint(int c)
 {
