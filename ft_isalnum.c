@@ -9,6 +9,10 @@
 /*   Updated: 2022/04/11 16:20:20 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+// la fonction verifie si le caractere est alpha ou numerique. Si alpha ou 
+// numerique, retourne 1. Sinon, retourne zero
+
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {
