@@ -11,6 +11,11 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+// la fonction permet d'allouer de la memoire de facon plus securitaire que
+// malloc. On cree d'abord un tableau d'une certaine grandeur avec un certain
+// nombre de cases (size et count; selon les arguments recus). Si ptr est vide 
+// du aux arguments, retourne NULL. Sinon, on remplie de '\0' grace a la fonction
+// bzero.
 
 void	*ft_calloc(size_t count, size_t size)
 {
