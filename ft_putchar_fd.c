@@ -10,8 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction pour ecrire un caractere dans le file descriptor. Fonction que tu
+// ajoutes a un programme qui ouvrirait un doc puis que tu veux que le prog
+// ecrit de quoi dans le doc. Fonctionne comme putchar.
 #include "libft.h"
-#include<stdio.h>
 
 void	ft_putchar_fd(char c, int fd)
 {
