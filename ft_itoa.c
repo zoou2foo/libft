@@ -11,7 +11,14 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-//le longint dans calloc est important
+//le longint dans calloc est important. Int a argument. Long int est
+// important pour gerer les long int pour les decortiquer pour pouvoir
+// les afficher caractere par caractere (chiffre par chiffre). Division
+// par 10, car c'est la base qu'on utilise. Temp est pour garder le 
+// resultat de la conversion de int a argument. Calloc pour allouer
+// a la chaine de caractere. itoa fonctionne sensiblement de la meme maniere
+// que atoi. Si l'allocation n'a pas fonctionne, retour NULL. Gestion du max
+// negatif integer. Ensuite, gestion des nombres negatifs puis la conversion
 
 int	ft_longint(int nb)
 {
