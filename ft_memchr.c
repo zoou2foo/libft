@@ -11,6 +11,12 @@
 /* ************************************************************************** */
 
 #include"libft.h"
+// trouver la premiere occurence du int converti en char dans la chaine. Il 
+// un index pour se balader dans la chaine. N est le nombre de caracteres a
+// chercher dans la chaine. Pour cela qu'il faut decrementer. Puis, on cast pour
+// permettre la comparaison. Lorsque la 1ere occurence est trouve, on retourne
+// un pointeur sur le caractere cherche (int c caster en char) dans la chaine
+// Si le caractere n'est pas trouve: retourne NULL
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
