@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui copie "len bytes" de la chaine src a la chaine dst. Elle gere 
+// les overlap que memcpy ne fait pas. Retourne un pointeur a dst. Si dst et 
+// src sont egales, retourne dst. Au cas ou dst est plus grand que src: tant
+// que len (le nombre de bytes est plus grand que l'index); on cast dst et src,
+// car void. Puis, + len-1 pour ne pas inclure le '\0'. On decremente len ici
+// pour passer le nombre de bytes a copier, car on a commence a la fin.
+// Si dst est plus petit que src: tant que len est plus grand que i; copie
+// normal et on incremente, car on a commence du debut; pour ne pas creer un 
+// overlap. 
 #include"libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
