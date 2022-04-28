@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui ecrit dans un file descriptor (doc). Meme principe que putstr.
+// Ecrit une chaine de caractere.
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
