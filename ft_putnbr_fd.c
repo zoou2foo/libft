@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Fonction qui ecrit dans un file descriptor (doc). Comme putnbr. Pour ecrire
+// des integers. Il faut donc gerer les max et min integers. Puis, les negatifs.
+// pour finir les nombres entiers (0 a 9).
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
