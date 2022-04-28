@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// encore une fois, fonction qui va ecrire dans un doc (file descriptor). S'il
+// n'y a rien dans s. Fonction s'arrete. Tant que l'index de s n'est pas a la 
+// fin, ecrire le caractere qui se trouve a l'adresse de l'index s dans le doc 
+// (file descriptor). Puis, on incremente. A la fin, on ajoute un retour a la 
+// a la ligne
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
