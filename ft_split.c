@@ -10,8 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui split une chaine en deux a partir du delimiteur (char c). Cree
+// un tableau 2D pour chaque nouvelle chaine creee selon le delimiteur. On a 
+// donc besoin d'un compteur de mots pour les placer ensuite dans notre tableau
+// 2D (pas sur a verifier). 
 #include"libft.h"
-//pourquoi il faut signifier le type de variable pour le sizeof? 
+//pourquoi il faut signifier le type de variable pour le sizeof? int et char
+// pas la meme valeur
 //Quand calloc demain un size_t count...
 
 static int	ft_count_word(char const *s, char limite)
