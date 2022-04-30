@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui chance les caracteres en miniscule (gerer en int toutefois!)
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
