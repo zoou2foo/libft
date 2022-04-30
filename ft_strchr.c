@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui trouve la premiere occurence d'un int converti en char dans une
+// chaine pointe par 's'. Le caractere 'NULL' est considere comme une partie 
+// de la chaine, alors 'c'  peut etre le '\0'. Tant qu'il y a des caracteres dans
+// s; si a l'index egale cast char de c, retourner un pointeur la. Sinon, on 
+// incremente. Si 'c' est egal a '\0', retourne un pointeur la. Si aucune de ces
+// conditions est remplie, retourne NULL.
 #include"libft.h"
 
 char	*ft_strchr(const char *s, int c)
