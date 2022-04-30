@@ -16,7 +16,8 @@
 // chercher dans la chaine. Pour cela qu'il faut decrementer. Puis, on cast pour
 // permettre la comparaison. Lorsque la 1ere occurence est trouve, on retourne
 // un pointeur sur le caractere cherche (int c caster en char) dans la chaine
-// Si le caractere n'est pas trouve: retourne NULL
+// Si le caractere n'est pas trouve: retourne NULL. Le pointeur est a la 
+// position ou il se trouve.
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
