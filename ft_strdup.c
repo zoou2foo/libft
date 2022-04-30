@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Duplication d'une chaine. En premier, elle alloue suffisamment de memoire pour
+// copier la chaine s1. Puis, la chaine est copiee. Finalement, retourne un 
+// pointeur a la chaine. NULL et ERRNO (error number) sont fixes a ENOMEM (ne 
+// peut pas allouer de l'espace). Malloc sur la longueur de la chaine + 1 pour
+// '\0'. Si la memoire n'est pas alloue, retour NULL. Pendant qu'il y a de quoi
+// dans la chaine, copie le caractere a l'index et on incremente. Puis, on ajoute
+// '\0' a la fin.
 #include"libft.h"
 
 char	*ft_strdup(char *s1)
