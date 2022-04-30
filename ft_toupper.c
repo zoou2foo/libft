@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui change les miniscules en majuscules. Gerer en int!!
 int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
