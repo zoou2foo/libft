@@ -14,7 +14,10 @@
 //pas de char; i pour balader
 //l'ordi doit lire le prototype. Regarder les arguments donnés, puis vois qui
 //call une fonction, alors probablement saute voir ce que demande la fonction 
-//avant d'aller faire le reste de striteri
+//avant d'aller faire le reste de striteri. La fonction f est defini dans le
+// 'main'. S'il n'a rien dans la chaine s, retourne rien. While que l'index dans
+// s n'est pas a la fin, fonction f(index, adresse ou l'index se trouve dans la
+// chaine. Puis on incremente.
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
