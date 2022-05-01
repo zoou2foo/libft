@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction pour mesurer la longeur d'une chaine de caractere. Besoin d'un 
+// compteur pour la mesure. Tant que le compteur n'est pas rendu a la fin de la 
+// chaine, on incremente. Retourne i.
 #include"libft.h"
 
 size_t	ft_strlen(const char *s)
