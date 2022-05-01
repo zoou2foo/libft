@@ -11,11 +11,13 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include<stdio.h>
 //l'ordi doit lire le prototype. Regarder les arguments donnés, puis vois qui
 //call une fonction, alors probablement saute voir ce que demande la fonction 
 //avant d'aller faire le reste de strmapi. On fait une strdup pour avoir une
-//copie sécurisée 
+//copie sécurisée. Alors, si temp est vide, on retourne NULL. Tant qu'il y a de
+// quoi dans temp --> temp est egal a la fonction 'f' de l'index i et du 
+// caractere qui se trouve a l'index i dans la chaine temp. Puis, on incremente.
+// La fonction retourne temp.
 
 char	*ft_strmapi(char *s, char (*f)(unsigned int, char))
 {
