@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction similaire a strlcat sauf qu'elle copie jusqu'a dstsize, un caractere
+// a la fois. 2 variables: i (compteur) et srclen (pour la longueur de la chaine
+// source). Si la taille de dst est egale a 0, retourne la longueur de source.
+// Pendant que l'index i dans src n'est pas rendu a la fin ET i est plus petit
+// que la taille de dst moins 1 (pour exclure le '\0' --> copie src dans dst, 
+// incremente. Puis, on ajoute un '\0' a la fin. Retourne srclen
 #include"libft.h"
 
 size_t	ft_strlcpy(char *dst, char *src, size_t dstsize)
