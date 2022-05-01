@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// fonction qui compare deux chaines de caractere (par rapport a sa valeur ascii)
+// pas plus que n caractere. Si 'n' est egal a 0, retourne 0. La fonction 
+// retourne la difference entre s1 et s2 (selon l'emplacement de l'index).
 #include"libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
