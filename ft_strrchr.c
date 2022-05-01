@@ -12,6 +12,12 @@
 
 //je dois commencer par la fin pour trouver la dernière occurence. Bcp plus
 //facile. Moins de gossage
+// fonction qui chercher un caractere 'int' dans une string. Il faut donc cast
+// int c. La variable i est egale a la longueur de la chaine s (pour commencer
+// de la fin). Tant que i est plus grand ou egale a zero, si a l'index i dans 
+// la chaine s est egal au cast en char de c, retourne la derniere occurence
+// de int c. Un pointeur sur la chaine a partir de la derniere occurrence d'ou
+// le plus i?? Puis on decremente jusqu'a ce que la condition soit remplie.
 #include"libft.h"
 
 char	*ft_strrchr(char *s, int c)
