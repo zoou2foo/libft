@@ -6,18 +6,19 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 07:35:30 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/22 14:24:23 by vjean            ###   ########.fr       */
+/*   Updated: 2022/05/09 11:27:23 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// la fonction fait joindre 2 chaines de caracteres. Besoin de plusieurs variables
-// pour gerer la concatenation. Evidemment s'il n'y a rien dans s1 ou s2, retourne
-// NULL. Ensuite, on mesure la longueur de chaque chaine avec strlen. Puis, on
-// alloue la  memoire en fonction de la longueur de s1 et s2 en ajoutant 1 pour
-// '\0'. Si l'allocation n'a pas fonctionne, retourne NULL. On a besoin de 2 
-// compteurs; pour se promener dans nstr et s1+s2 pour faire la concatenation.
-// On ajoute un '\0' a la fin, puis on retourne la nouvelle chaine.
-#include "libft.h"
+// la fonction fait joindre 2 chaines de caracteres. Besoin de plusieurs 
+// variables pour gerer la concatenation. Evidemment s'il n'y a rien dans s1 
+// ou s2, retourne NULL. Ensuite, on mesure la longueur de chaque chaine avec
+// strlen. Puis, on alloue la  memoire en fonction de la longueur de s1 et 
+// s2 en ajoutant 1 pour '\0'. Si l'allocation n'a pas fonctionne, retourne 
+// NULL. On a besoin de 2 compteurs; pour se promener dans nstr et s1+s2 pour
+// faire la concatenation. On ajoute un '\0' a la fin, puis on retourne la
+// nouvelle chaine.
+#include"libft.h"
 
 char	*ft_strjoin(char *s1, char *s2)
 {

@@ -6,26 +6,24 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 20:10:27 by vjean             #+#    #+#             */
-/*   Updated: 2022/05/07 16:30:42 by vjean            ###   ########.fr       */
+/*   Updated: 2022/05/09 13:19:07 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//Besoin d'une variable temporaire pour ajouter l'élément à la fin de la liste.
-//Tmp est egale a lst. Tant qu'il y a de quoi dans tmp, si tmp est egal à NULL 
-// moins 1 pour ne pas inclure le '\0', on retourne tmp. Si ne remplit pas la 
-//condition on retourne NULL.
-#include"libft.h"
-#include<stdio.h>
+//J'avais pas besoin de tmp. Tant qu'il y a de quoi dans lst; si le lien lst a
+//next égale null, on retourne lst, car il est déjà au dernier élément. Lst 
+//égale le lien de lst à next. C'est la façon d'avancer dans une liste. Quand 
+//il finit, sors de la boucle et retourne lst qui est au dernier élément de la 
+//liste.
+#include "libft.h"
 
-t_list  *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
-    t_list  *tmp;
-
-    tmp = lst;
-    while (tmp)
-    {
-        if (tmp == NULL - 1)
-            return (tmp);
-    }
-    return (NULL);
+	while (lst)
+	{
+		if (lst->next == NULL)
+			return (lst);
+		lst = lst->next;
+	}
+	return (lst);
 }

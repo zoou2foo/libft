@@ -6,7 +6,7 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 13:48:29 by vjean             #+#    #+#             */
-/*   Updated: 2022/04/23 11:45:37 by vjean            ###   ########.fr       */
+/*   Updated: 2022/05/09 11:30:36 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,9 @@
 // incremente (on continue de se balader. Variable end qui est egale a la 
 // longueur de la chaine. Pendant qu'il y a un nombre dans 'end' et que la
 // recherche de 'set' dans 's1 a partir de la fin' n'est pas NULL (n'est pas
-// a la fin), on decremente la variable fin (car on commence a la fin ici.) Puis,
-// on retourne la nouvelle string cree sans le set (sans oublier d'ajout '\0'.
+// a la fin), on decremente la variable fin (car on commence a la fin ici.)
+// Puis, on retourne la nouvelle string cree sans le set (sans oublier 
+//d'ajout '\0'.
 
 #include"libft.h"
 
