@@ -6,13 +6,13 @@
 /*   By: vjean <vjean@student.42quebec.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/02 16:09:59 by vajean            #+#    #+#             */
-/*   Updated: 2022/04/11 16:20:20 by vjean            ###   ########.fr       */
+/*   Updated: 2022/05/09 11:19:00 by vjean            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 // la fonction verifie si le caractere est alpha ou numerique. Si alpha ou 
 // numerique, retourne 1. Sinon, retourne zero
-
-#include "libft.h"
+#include"libft.h"
 
 int	ft_isalnum(int c)
 {
